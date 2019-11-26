@@ -17,7 +17,7 @@ class TestSalesforce(unittest.TestCase):
         unittest.TestCase.__init__(self, methodName=methodName)
 
     def dump_json(self, data, filename):
-        # with open(filename, 'w') as fp:
+        # with open('data/' + filename, 'w') as fp:
         #     json.dump(data, fp, sort_keys=True, indent=4)
         pass
 
